@@ -1,14 +1,13 @@
 # Project 2 | Crowdfunding ETL
 
 # Team Members:
-__________________________________________________________________________________
+
 - Michelle Moody: ERD model, SQL import, Create the Contacts DataFrame, README
 - Yiran Zhang: Create the Campaign DataFrame, Import Data into Crowdfunding Database, README
 - Sean Daily: Create the Category and Subcategory DataFrames, README
-__________________________________________________________________________________
 
 # Project Objectives:
-__________________________________________________________________________________
+
 1) Building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data.
 2) Create four CSV files and use the CSV file data to create an ERD and a table schema
 3) Upload the CSV file data into a Postgres database
@@ -25,10 +24,9 @@ Libraries:
 - Numpy
 - RegExr
 - JSON
-__________________________________________________________________________________
 
 # Project Overview:
-__________________________________________________________________________________
+
 Part 1: Create DataFrames for Category, Subcategory, Campaign and Contacts
 
 Using Jupyter Notebook to import the two excel files that were provided, we transformed and manipulated these files to generate four dataframes. These dataframes were then exported into csv files.
@@ -59,15 +57,13 @@ Subcategory with the highest number of successful projects:
 Subcategory with the lowest number of successful projects:
 Category with the highest sum of pleded amounts:
 Top countries with the highest sum of pleged amounts:
-__________________________________________________________________________________
 
 # Executive Summary & Conclusion
-__________________________________________________________________________________
+
 ETL (Extract, Transform and Load) is a foundational skill in the data science field. Data is often scattered across multiple sources and in various formats. Understanding how to perform these steps is a critical concept that enables you to have clean and accurate data. Being able to manipulate data types, fix formatting issues and generate new colums with additional information can allow you to gain meaningful insights from your data. 
-__________________________________________________________________________________
 
 # Instructions
-__________________________________________________________________________________
+
 The instructions for this mini project are divided into the following subsections:
 
 - Create the Category and Subcategory DataFrames

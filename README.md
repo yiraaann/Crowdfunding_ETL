@@ -51,12 +51,12 @@ We created a SQL database in Postgres through pgAdmin. The table schema sql file
 
 Part 4: Findings and Queries
 
-Category with the highest success rate:
-Category with the lowest success rate:
-Subcategory with the highest number of successful projects:
-Subcategory with the lowest number of successful projects:
-Category with the highest sum of pleded amounts:
-Top countries with the highest sum of pleged amounts:
+- Category with the highest success rate:
+- Category with the lowest success rate:
+- Subcategory with the highest number of successful projects:
+- Subcategory with the lowest number of successful projects:
+- Category with the highest sum of pleded amounts:
+- Top countries with the highest sum of pleged amounts:
 
 # Executive Summary & Conclusion
 

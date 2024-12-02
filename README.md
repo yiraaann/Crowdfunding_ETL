@@ -4,7 +4,7 @@
 
 - Michelle Moody: ERD model, SQL import, Create the Contacts DataFrame, README
 - Yiran Zhang: Create the Campaign DataFrame, Import Data into Crowdfunding Database, README
-- Sean Daily: Create the Category and Subcategory DataFrames, README
+- Sean Daily: Create the Category and Subcategory DataFrames
 
 # Project Objectives:
 

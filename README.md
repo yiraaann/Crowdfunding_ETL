@@ -43,7 +43,8 @@ Using QuickDBD, we sketched an Entity Relationship Diagram (ERD) to form a table
 - Schema = crowdfunding.sql
 - ERD Diagram = crowdfunding_ERD.png
 
-INSERT ERD DIAGRAM HERE
+![crowdfunding_ERD](https://github.com/user-attachments/assets/40cb2e38-7d9d-4ef2-a19e-40e78cbd3639)
+
 
 Part 3: Import Data into Crowdfunding Database
 

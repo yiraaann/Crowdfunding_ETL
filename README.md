@@ -52,12 +52,14 @@ We created a SQL database in Postgres through pgAdmin. The table schema sql file
 
 Part 4: Findings and Queries
 
-- Category with the highest success rate:
-- Category with the lowest success rate:
-- Subcategory with the highest number of successful projects:
-- Subcategory with the lowest number of successful projects:
-- Category with the highest sum of pleded amounts:
-- Top countries with the highest sum of pleged amounts:
+- Category with the most successful campaigns: Theater (cat4) with 187 successes
+- Category with the most failed campaigns: Theater (cat4) with 132 fails
+- Category with the least successful campaigns: Journalism (cat9) with 4 successes
+- Subcategory with the highest number of successful projects: Plays (subcat4) with 187 successes
+- Subcategory with the lowest number of successful projects: World Music (subcat22) with 3 successes
+- Category with the highest sum of pledged amounts: Theater (cat4) with $15,763,227 total pledged
+- Category with the lowest sum of pledged amounts: Journalism (cat9) with $36,176 total pledged
+- Top 3 countries with the highest sum of pledged amounts: U.S. ($31,409,336), Canada ($2,812,788), Italy ($2,198,202)
 
 # Executive Summary & Conclusion
 

@@ -70,3 +70,30 @@ SELECT * FROM category;
 SELECT * FROM subcategory;
 SELECT * FROM contacts;
 SELECT * FROM campaign;
+
+-- Extra queries for data analysis
+-- Category with the most successful/failed campaigns
+SELECT category_id, outcome, COUNT(*) AS "Campaign Outcome Counts"
+FROM campaign
+GROUP BY category_id, outcome
+ORDER BY "Campaign Outcome Counts" DESC;
+
+-- Subcategory with the most successful/failed projects
+SELECT subcategory_id, outcome, COUNT(*) AS "Campaign Outcome Counts"
+FROM campaign
+GROUP BY subcategory_id, outcome
+ORDER BY "Campaign Outcome Counts" DESC;
+
+-- Category with the highest/lowest sum of pledged amounts
+SELECT category_id, SUM(pledged) AS "Total Campaign Pledge Amount"
+FROM campaign
+GROUP BY category_id
+ORDER BY "Total Campaign Pledge Amount" DESC;
+
+-- Top countries with the highest sum of pledged amounts
+SELECT country, SUM(pledged) AS "Total Campaign Pledge Amount"
+FROM campaign
+GROUP BY country
+ORDER BY "Total Campaign Pledge Amount" DESC;
+
+--
